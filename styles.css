@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 50px;
   background-color: white;
 }
 
@@ -73,43 +73,26 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-size: 14px;
-}
-
-footer h2 {
-  margin: 0;
-}
-
-footer span {
-  display: block;
-  font-weight: bold;
-}
-
-footer h3 {
-  margin: 0;
-  text-align: right;
 }
 
 .footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  height: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-left {
-  flex: 1;
-  order: 1;
-}
-
-.footer-right {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  order: 2;
+  margin-bottom: 20px;
 }
 
 .footer-right iframe {

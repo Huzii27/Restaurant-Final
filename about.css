@@ -1,85 +1,85 @@
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+  margin: 0;
+  padding: 0;
+  text-align: center;
   
-  nav {
-    overflow: hidden;
-    height: 50px; /* Adjust the height as per your requirement */
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  nav li {
-    display: inline-block; /* Changed from float:right */
-  }
-  
-  nav a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin: 0 auto; /* Center align the links */
-  }
-  
-  nav a:hover {
-    background-color: black;
-    color: white;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  .image {
-    width: 50%;
-    height: 100%;
-    max-width: 50%;
-  }
-  
-  .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .text {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    padding: 50px;
-    box-sizing: border-box;
-    max-width: 50%;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
+}
+
+nav {
+  overflow: hidden;
+  height: 50px; /* Adjust the height as per your requirement */
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block; /* Changed from float:right */
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0 auto; /* Center align the links */
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+  max-width: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dd7230;
+  padding: 50px;
+  box-sizing: border-box;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}

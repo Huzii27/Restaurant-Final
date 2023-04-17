@@ -20,7 +20,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80px;
+	height: 50px;
 	background-color: white;
   }
 
@@ -52,3 +52,13 @@ form {
 	flex-direction: column;
 	align-items: center;
 }
+.reservation-section {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f1dabf;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px grey;
+  }
+  
